@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "val_int1.crafthaj.mixins.common",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"BlahajMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

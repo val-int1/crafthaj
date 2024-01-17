@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" T ",
+		"TRR",
+		"PW "
+	],
+	"key": {
+		"T": {
+			"item": "minecraft:light_blue_wool"
+		},
+		"R": {
+			"item": "minecraft:pink_wool"
+		},
+		"P": {
+			"item": "minecraft:pink_dye"
+		},
+		"W": {
+			"item": "minecraft:white_wool"
+		}
+	},
+	"result": {
+		"item": "blahaj:trans_shark",
+		"count": 1
+	}
+}
