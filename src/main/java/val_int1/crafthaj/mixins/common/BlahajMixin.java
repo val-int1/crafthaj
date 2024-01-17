@@ -10,7 +10,7 @@ import hibi.blahaj.Blahaj;
 @Mixin(Blahaj.class)
 public class BlahajMixin {
 
-	@Inject(method="injectTrades", at=@At("HEAD"), cancellable=true)
+	@Inject(method="injectTrades", at=@At("HEAD"), cancellable=true, remap=false)
 	private static void crafthaj_injectInjectTrades(CallbackInfo info) {
 		info.cancel(); // No trade, only craft
 	}
